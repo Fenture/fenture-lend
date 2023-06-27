@@ -1,0 +1,11 @@
+[package]
+name = 'Fenture-Lend'
+version = '1.0.0'
+
+[dependencies]
+AptosFramework = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-framework/", rev = "mainnet" }
+Fenture_Finance_dao = { git = "https://github.com/Fenture/fenture-finance-dao.git", subdir = "", rev = "main" }
+
+[addresses]
+fenture = "0x9d786cc55a4c5a07f8d52bf51e799f46823b8d02a2fb78443a3d0a6eea08f239"
+fenture_finance_dao = "0x8af11472a0a021ba325f33dd8686fadd8b27bec7194448eb8c021a3054ae5283"
